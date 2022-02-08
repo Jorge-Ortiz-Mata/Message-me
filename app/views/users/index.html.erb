@@ -1,0 +1,23 @@
+<h1>Users</h1>
+<% @users.each do |user| %>
+    <br>
+    <div class="ui card">
+        <div class="content">
+            <div class="header"><%= user.username %></div>
+        </div>
+        <div class="content">
+            <h4 class="ui sub header">Summary</h4>
+            <div class="ui small feed">
+                <div class="event">
+                    <div class="content">
+                        <div class="summary">
+                            <p>User ID: <b><%= user.id %></b>.
+                            <p>Username: <b><%= user.username %></b>.
+                            <p>Joined: <b><%= time_ago_in_words(user.created_at) %></b>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+<% end %>

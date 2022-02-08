@@ -1,0 +1,21 @@
+<div class="ui inverted menu">
+  <%= link_to "Chatroom", root_path, class:"active item" %>
+  <%= link_to "Users", users_path, class:"item" %>
+  <div class="right menu">
+    <% if logged_in? %>
+      <div class="item">
+        User: @<b><%= current_user.username %></b>.
+      </div>
+      <div class="item">
+          <%= link_to 'Sign out', signout_path, class:"ui primary button" %>
+      </div>
+    <% else %>
+      <div class="item">
+          <%= link_to 'Sign In', signin_path, class:"ui primary button" %>
+      </div>
+      <div class="item">
+          <%= link_to 'Sign Up', signup_path, class:"ui primary button" %>
+      </div>
+    <% end %>
+  </div>
+</div>

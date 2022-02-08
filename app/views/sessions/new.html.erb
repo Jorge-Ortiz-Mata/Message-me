@@ -1,0 +1,17 @@
+<h2 class="ui center aligned icon header">
+  <i class="circular blue id card icon"></i>
+  Sign in
+</h2>
+<%= form_with scope: :session, class:"ui form", url: signin_path do |form| %>
+    <div class="field">
+        <%= form.label "Username: " %>
+        <%= form.text_field :username %>
+    </div>
+    <div class="field">
+        <%= form.label "Password: " %>
+        <%= form.password_field :password %>
+    </div>
+    <p>
+        <%= form.submit "Login", data: {turbo: false}, class:"ui button" %>
+    </p>
+<% end %>
