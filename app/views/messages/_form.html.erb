@@ -1,7 +1,13 @@
 <turbo-frame id="<%= dom_id @message %>">
 
 <%= form_with model: @message do |form| %>
-    <%= form.text_field :content, value: " " %>
-    <%= form.submit %>
+    <div class="ui reply form">
+        <div class="field">
+            <div class="ui action input">
+                <%= form.text_field :content, placeholder: "Type a message...", value: "" %>
+                <%= form.submit class:"ui button", id:"buttonSendMessage" %>
+            </div>
+        </div>
+    </div>
 <% end %>
 </turbo-frame>

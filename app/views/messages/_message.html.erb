@@ -1,3 +1,8 @@
 <div id="<%= dom_id message %>">
-    <span><b><%= message.user.username %></b>:<%= message.content %>
+    <div class="ui compact message">
+        <p>
+            <b><%= message.user.username %></b>: <%= message.content %>
+        </p>
+    </div>
+    <br>
 </div>
