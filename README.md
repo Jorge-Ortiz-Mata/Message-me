@@ -1,24 +1,25 @@
-# README
+# Message me.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby in rails application where you can send messages without reloading
+the website. 
+This project uses turbo method and some other features, as well as Javascript
+and JQuery.
 
-Things you may want to cover:
+Tools:
 
-* Ruby version
+* Ruby version: 3.0
+* Rails version: 7.0
+* CSS framework: Semantic UI
+* Javascript.
+* JQuery.
+* Turbo stream.
 
-* System dependencies
+Have a wonderful day! :smiley:
+Greetings :love_you_gesture:
 
-* Configuration
+Author:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Jorge Ortiz Mata.
+* San Luis Potosí S.L.P. México
+* ortiz.mata.jorge@gmail.com
+* +52 (444) 576 3034.
