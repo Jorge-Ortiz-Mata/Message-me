@@ -33,7 +33,7 @@ class UsersController < ApplicationController
     # ----------------------------------------- PRIVATE --------------------------------------------
     private 
         def locate_user
-            @user = User.finda_by(params[:id])
+            @user = User.find_by(params[:id])
         end
 
         def user_params
