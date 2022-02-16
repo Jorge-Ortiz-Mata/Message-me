@@ -13,7 +13,7 @@ Tools:
 * Javascript.
 * JQuery.
 * Turbo stream.
-* Heroku link: https://finance-tracker-yorch.herokuapp.com/
+* Heroku link: https://message-me-yorch.herokuapp.com
 
 Have a wonderful day! :smiley:
 Greetings :love_you_gesture:
